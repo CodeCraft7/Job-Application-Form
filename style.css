@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 216, 199);
+}
+h1{
+    font-size: 40px;
+}
+.container{
+    max-width: 700px;
+    margin:0 auto;
+}
+.content {
+    max-width: 750px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgb(1 1 1 / 10%);
+    border-radius: 10px;
+}
+form .control-form{
+    margin: 2px;
+    display: flex;
+    display: flex;
+}
+.form input{
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    margin: 4px;
+    margin-right:50px ;
+    font-size: 20px;
+}
+input,textarea,select option:focus{
+    outline-color: red;
+}
+.form label{
+    margin: 5px;
+    font-size: 20px;
+
+}
+.form textarea{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 655px;
+    height: 50px;
+    display: flex;
+    margin: 5px;
+    margin-right:50px ;
+    font-size: 20px;
+}
+.form select{
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    margin: 5px;
+    margin-right:50px ;
+    font-size: 20px;
+}
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.btn{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    margin: 0 auto;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: silver;
+}
+
